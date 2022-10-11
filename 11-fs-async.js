@@ -11,7 +11,7 @@ readFile('./content/first.txt', 'utf-8', (err, result) => {
     readFile('./content/second.txt', 'utf8', (err, result) => {
         if(err){
             console.log(err);
-            return;
+            return; 
         }
 
         const second = result;
